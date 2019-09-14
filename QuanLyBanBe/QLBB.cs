@@ -111,5 +111,9 @@ namespace QuanLyBanBe
             this.DataHelper.DB_ExecuteNonQuery(Cmd);
         }
         
+        public void Print()
+        {
+            Console.Write("Son oc");
+        }
     }
 }
